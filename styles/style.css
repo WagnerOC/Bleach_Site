@@ -1,12 +1,27 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: black;
+}
+
+h1{
+  margin: 0;
+  color: orange;
 }
 
 header{
-
+    display: grid;
+    grid-auto-flow: column;
+    height: 50px;
+    background-color: #777;
+    position: sticky;
+    top: 0;
 }
 
 a{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  text-decoration: none;
 }
