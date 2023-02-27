@@ -7,6 +7,10 @@ body{
 h1{
   margin: 0;
   color: orange;
+  animation-name: header;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
 
 header{
@@ -16,12 +20,34 @@ header{
     background-color: #777;
     position: sticky;
     top: 0;
+    font-family: 'Climate Crisis', cursive;
+    letter-spacing: 8px;
 }
 
 a{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: orange;
+  color: rgb(220, 146, 19);
   text-decoration: none;
+  animation-name: header;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  font-size: 14px;
 }
+
+@keyframes header {
+  0%{
+    color: rgb(220, 146, 19);
+  }
+  50%{
+    color: rgb(200, 126, 15);
+  }
+  70%{
+    color: rgb(210, 136, 10);
+  }
+  100%{
+    color: rgb(210, 129, 10);
+  }
+} 
