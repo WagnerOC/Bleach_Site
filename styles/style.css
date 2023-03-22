@@ -1,7 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   margin: 0;
   padding: 0;
   background-color: black;
+  color: #fef;
 }
 
 h1{
@@ -22,6 +27,16 @@ header{
     top: 0;
     font-family: 'Climate Crisis', cursive;
     letter-spacing: 8px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  font-size: 22px;
 }
 
 a{
@@ -51,3 +66,22 @@ a{
     color: rgb(210, 129, 10);
   }
 } 
+
+.caixaContent{
+  margin: auto;
+  width: 70%;
+  height: 100vh;
+}
+
+.caixaDetails{
+  display: flex;
+}
+
+summary{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #ffe;
+  font-size: 25px;
+}
